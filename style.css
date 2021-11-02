@@ -1,0 +1,15 @@
+.center {
+    text-align: center;
+}
+
+a:link {
+    color: rgb(255, 153, 0);
+}
+
+a:visited {
+    color: #D2691E;
+}
+
+a:active {
+    color: rgb(255, 153, 0);
+}
