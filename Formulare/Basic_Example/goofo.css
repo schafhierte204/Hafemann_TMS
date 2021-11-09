@@ -1,0 +1,33 @@
+#Meerbild {
+  /* 	Hier wird im ersten Block das JPG positioniert. 
+		im zweiten Block die Position des <div> mit Rahmen und Schriftfarbe. */
+
+  background-image: url("underwater.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  width: 60%;
+  margin: 1em auto;
+  border: solid black;
+  color: blue;
+}
+
+h1,
+main {
+  border-radius: 0.5rem;
+  border: 3px solid;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+h1 {
+  border-color: #d5d5d5;
+  padding-left: 200px;
+}
+
+main {
+  display: block;
+  border-color: #d5d5d5;
+  min-height: 25em;
+}
