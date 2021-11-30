@@ -1,0 +1,17 @@
+body 	{background-color: pink;
+	 border-style: solid;
+	}
+
+#eins	{background-color: green;
+	 border-style: dotted dashed solid double;
+	}
+
+#zwei	{background-color: grey;
+	 padding: 10px;
+	 border-style: dotted dashed solid double;
+ 	}
+
+#drei   {background-color: violet;
+	 margin: 30px;
+	 border-style: dotted dashed solid double;
+        }
