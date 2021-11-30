@@ -1,79 +1,100 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<link rel="stylesheet" href="formtest2021.css">
-	</head>
 
-	<body>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="formtest2021.css">
+</head>
+
+<body>
 	<br>
 
-		<!-- Eins: Verschiedene einzeilige Eingabefelder, muessen eigentlich als POST versand werden. -->
-		<div id="eins">
- 		<h3>Eingabefelder</h3>
+	<!-- Eins: Verschiedene einzeilige Eingabefelder, muessen eigentlich als POST versand werden. -->
+	<div id="eins">
+		<h3>Eingabefelder</h3>
 		<form action="mailto:mail@example.com" method="GET" enctype="text/plain">
-		<table>
-			<tr><td><label>Vorname: </td>		<td><input type="text" name="Vorname"></label></td>
-			<tr><td><label>Name: </td>		<td><input type="text" name="Name" size="23"></label></td>
- 			<tr><td><label>E-Mail: </td>		<td><input type="email" name="EMail" placeholder="mail@example.com"></label></td>
-			<tr><td><label>Postleitzahl: </td>	<td><input type="text" name="PLZ" pattern="^(?:[Dd]\s*[-��]?\s*)?[0-9]{5}$"></label></td>
-			<tr><td><label>Password: </td>		<td><input type="password" name="Passwort"></label></td>
+			<table>
+				<tr>
+					<td><label>Vorname: </td>
+					<td><input type="text" name="Vorname"></label></td>
+				</tr>
+				<tr>
+					<td><label>Name: </td>
+					<td><input type="text" name="Name" size="23"></label></td>
+				</tr>
+				<tr>
+					<td><label>E-Mail: </td>
+					<td><input type="email" name="EMail" placeholder="mail@example.com"></label></td>
+				</tr>
+				<tr>
+					<td><label>Postleitzahl: </td>
+					<td><input type="text" name="PLZ" pattern="^(?:[Dd]\s*[-��]?\s*)?[0-9]{5}$"></label></td>
+				</tr>
+				<tr>
+					<td><label>Password: </td>
+					<td><input type="password" name="Passwort"></label></td>
+				</tr>
 
-			<tr><td colspan="2"><p><input type="submit" name="Abschicken" value="Abschicken"> </p></td>
-		</table>
+				<tr>
+					<td colspan="2">
+						<p><input type="submit" name="Abschicken" value="Abschicken"> </p>
+					</td>
+				</tr>
+			</table>
 		</form>
-		</div>
+	</div>
 	<br>
 
-		<!-- Zwei: Textarea als mehrzeiliges Eingabefeld. Ebenfalls eigentlich POST.  -->
-		<div id="zwei">
+	<!-- Zwei: Textarea als mehrzeiliges Eingabefeld. Ebenfalls eigentlich POST.  -->
+	<div id="zwei">
 		<h3>Mehrzeiliges Eingabefeld</h3>
- 		<form action="www.drachen-enterprises.com" method="GET" enctype="text/plain">
- 			<label>Ihre Nachricht:
+		<form action="www.drachen-enterprises.com" method="GET" enctype="text/plain">
+			<label>Ihre Nachricht:
 				<textarea id="Mehrzeiler" rows="5" cols="30">
 				Dieser Text wird automatisch im mehrzeiligen Eingabefeld dargestellt.</textarea>
 			</label>
 
 			<p><button type="submit" name="Abschicken" value="Abschicken">Abschicken</button></p>
- 		</form>
-		</div>
+		</form>
+	</div>
 	<br>
 
-		<!-- Drei: Auswahl-Select. POST auch hier. -->
-		<div id="drei">
+	<!-- Drei: Auswahl-Select. POST auch hier. -->
+	<div id="drei">
 		<h3>Haustier-Formular</hr>
-		<form action="www.drachen-enterprises.com" method="GET" enctype="text/plain">
- 			<label>Wählen Sie Ihr Lieblingshaustier:
-				<select size="4" id="haustier" multiple>
-					<option selected> Hund</option>
-					<option> Katze</option>
- 					<option selected> Vogel</option>
- 					<option> Meerschweinchen</option>
-				</select>
-			</label>
-			<br>
- 			<label>Eine "Drop-Down"-Liste mit anderen Übergabewerten:
-				<select id="haustier2">
-					<option value="1"> Hund mit Übergabewert 1</option>
-					<option value="2"> Katze mit Übergabewert 2</option>
-	 				<option selected value="3"> Vogel mit Übergabewert 3</option>
-	 				<option value="4"> Meerschweinchen mit Übergabewert 4</option>
-				</select>
-			</label>
-			<br>
- 			<label>Wählen Sie Ihr Lieblingshaustier mal auf die moderne Art:
-				<input list="haustier3" type="text" name="haustier3">
-				<datalist id="haustier3">
- 					<option value="Hund">
- 					<option value="Katze">
- 					<option value="Vogel" selected>
- 					<option value="Meerschweinchen">
- 				</datalist>
- 			</label>
+			<form action="www.drachen-enterprises.com" method="GET" enctype="text/plain">
+				<label>Wählen Sie Ihr Lieblingshaustier:
+					<select size="4" id="haustier" multiple>
+						<option selected> Hund</option>
+						<option> Katze</option>
+						<option selected> Vogel</option>
+						<option> Meerschweinchen</option>
+					</select>
+				</label>
+				<br>
+				<label>Eine "Drop-Down"-Liste mit anderen Übergabewerten:
+					<select id="haustier2">
+						<option value="1"> Hund mit Übergabewert 1</option>
+						<option value="2"> Katze mit Übergabewert 2</option>
+						<option selected value="3"> Vogel mit Übergabewert 3</option>
+						<option value="4"> Meerschweinchen mit Übergabewert 4</option>
+					</select>
+				</label>
+				<br>
+				<label>Wählen Sie Ihr Lieblingshaustier mal auf die moderne Art:
+					<input list="haustier3" type="text" name="haustier3">
+					<datalist id="haustier3">
+						<option value="Hund">
+						<option value="Katze">
+						<option value="Vogel" selected>
+						<option value="Meerschweinchen">
+					</datalist>
+				</label>
 
-			<p><button type="submit" id="Abschicken" value="Abschicken">Abschicken</button></p>
- 		</form>
-		</div>
+				<p><button type="submit" id="Abschicken" value="Abschicken">Abschicken</button></p>
+			</form>
+	</div>
 
-	</body>
+</body>
+
 </html>
