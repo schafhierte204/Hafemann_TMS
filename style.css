@@ -1,5 +1,11 @@
-.center {
-    text-align: center;
+* {
+    box-sizing: border-box;
+}
+
+.green {
+    background-color:#008000;
+    color:white;
+    text-align:center;
 }
 
 a:link {
@@ -11,5 +17,5 @@ a:visited {
 }
 
 a:active {
-    color: rgb(255, 153, 0);
+    color: rgb(224, 160, 63);
 }
