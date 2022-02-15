@@ -1,0 +1,110 @@
+
+.wrapper > div {
+	background: rgb(252, 180, 152);
+    background: radial-gradient(circle, rgba(252, 180, 152, 1) 0%, rgba(168, 141, 255, 1) 65%, rgba(0, 255, 233, 1) 91%);
+    padding: 1em;
+}
+
+
+body {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(143deg, rgba(0, 0, 0, 1) 0%, rgba(0, 70, 75, 1) 16%, rgba(0, 148, 141, 1) 32%, rgba(107, 239, 240, 1) 50%, rgba(0, 148, 141, 1) 68%, rgba(0, 70, 75, 1) 84%, rgba(0, 0, 0, 1) 100%);
+}
+
+li {
+    font-family: fantasy;
+    font-size: 14px;
+    list-style-type: none;
+}
+.ueberschrift {text-align:center;}
+
+#logo {height: 10vh;}
+
+a:link {
+    background: -webkit-radial-gradient(circle, rgba(130, 36, 115, 1) 0%, rgba(105, 71, 145, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+a:visited {
+    background: -webkit-radial-gradient(circle, rgba(0, 0, 0, 1) 0%, rgba(107, 239, 240, 1) 50%, rgba(0, 148, 141, 1) 68%, rgba(67, 103, 106, 1) 84%, rgba(0, 0, 0, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+a:hover {
+    background: -webkit-linear-gradient(180deg, rgba(148, 228, 105, 1) 0%, rgba(9, 41, 0, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.enabled{     text-decoration: underline;}
+.disabled{	  text-decoration: overline; }
+
+/* Ab hier Semantik-CSS von PLJ */
+
+#banner
+{
+	width:100vw;
+	height:10vh;
+	background-color: #FF55FF;
+	margin-left:1px;
+	margin-right:1px;
+	border:3px;
+	border:solid;
+	border-color: #87CEFA;
+	/* text-align:center; */
+	padding:1px;
+	position:relative;
+	float:left
+}
+#navigation
+{
+	width:20%;
+	position:relative;
+	height:500px;
+	background-color:#FF55FF;
+	margin-top:10px;
+	margin-left:1px;
+	margin-right:6px;
+	border:3pt;
+	border:solid;
+	border-color:#87CEFA;
+	padding:1px;
+	float:left
+}
+#content
+{
+	width:78%;
+	height:500px;
+	background-color: #FF55FF;
+	margin-top:10px;
+	margin-left:1px;
+	border:3px;
+	border:solid;
+	border-color:#87CEFA;
+	padding:1px;
+	line-height:150%;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	letter-spacing:2px;
+	position:relative;
+	float:left
+}
+
+#footer
+{
+	width:100vw;
+	height:10vh;
+	background-color: #FF55FF;
+	margin-top:10px;
+	margin-left:1px;
+	margin-right:1px;
+	border:3px;
+	border:solid;
+	border-color: #87CEFA;
+	text-align:center;
+	padding:1px;
+	position:relative;
+	float:left
+}

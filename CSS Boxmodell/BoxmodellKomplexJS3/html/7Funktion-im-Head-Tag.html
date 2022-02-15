@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<title>Funktion zeigeInfo</title>
+		<script type="text/javascript">
+			document.write ("<br><br><br>Ausgabe aus dem Kopfbereich (Head-Tag) der HTML-Datei -> extern2.js zum 1. Mal:<br>");
+			function zeigeInfo() { document.write("Yep! Sie haben die Funktion zeigeInfo aufgerufen."); }
+		</script>
+		<script type="text/javascript" src="../js/extern2.js"></script>
+		<link rel="stylesheet" href="../css/html.css">
+	</head>
+
+	<body>
+		<center>
+		<br><br>
+		So, wie auch sonst, fängt der Body-Tag-Bereich erst hier an.<br><br>
+		Jetzt wird als erstes document.write() direkt im Rumpf per JS-Einbindung aufgerufen:<br>
+		<script type = "text/javascript">document.write ("Ausgabe aus dem Body-Bereich!<br>");</script>
+		<br><br>
+		Ok, und jetzt wird im Rumpf die oben im Head-Tag definierte Funktion "zeigeInfo" aufgerufen und ausgeführt.<br>
+		Da die Funktion in einem LINK-Tag eingebaut ist, als "href"-Attribut, ist sie über den Linktext auslösbar:<br>
+		<a href="javascript:zeigeInfo();"> Funktion zeigeInfo jetzt hier durch Click aufrufen.</a>
+		<br><br>
+		Ganz am Ende des Body-Tags wird zum 2. Mal, jetzt direkt im Body, die externe JS-Datei "extern2.js" eingebunden:<br>
+		<script type="text/javascript" src="../js/extern2.js"></script>
+		<br><br>
+		Wie immer hier der Screenshot der HTML-Datei:
+		<br><br>
+		<img src="../pics/3screenshot_HTML.jpg" width="50%">
+		<br>
+	</body>
+</html>

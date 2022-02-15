@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head> 
+	<script src="jsBase.js"></script>
+	</head>
+
+	<body style="background-color:tomato;">
+
+		<p>
+		<br><br><br>
+		<h1 style="background-color:lawngreen;">Flexible Zahleneingabe für Fakultät-Funktion</h1>
+		</p>
+		
+		<p>
+		<script>
+		var zahl, ergebnis;  		
+		zahl = myPrompt2(); 			// Die Zahl wird mit dem Eingabewert gefüllt.
+		ergebnis = fakultaet(zahl);
+		document.write("<br><br>Die Fakultät der eingegebenen Zahl " + zahl + " lautet: " + ergebnis);
+		</script>
+		</p>
+		
+		<br><br><br>
+		
+		<p style="background-color:aqua;">
+		Wäre noch schöner, wenn wir die Prompt-Eingabe so begleiten können, daß es keine falschen Eingaben gibt.
+		Also nur positive ganze Zahlen größer 0. <br>Wie könnte man das hinkriegen? 
+		</p>
+		
+	</body>
+</html>

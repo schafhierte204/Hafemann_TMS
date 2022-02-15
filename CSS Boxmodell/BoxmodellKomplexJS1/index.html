@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head> 
+	<script src="jsBase.js"></script>
+	<link rel="stylesheet" href="style1.css">
+	</head>
+
+	<body>
+	Im grünen bigframe-Rahmen ...
+	<div id="bigframe">
+		... beginnt der Header.
+		<div id="header"><h2>Beispiel für ein Boxmodell (versus Tabellenlayout)</h2></div>
+		Dann Navigation und Inhalte.
+		<div id="navicontent">
+			
+			<div id="navi"> <ul>
+					<li>h</li>
+					<li>h</li>
+					<li id="trick">Begleitmaterial & Hilfen</li>
+					<li>h</li>
+					<li>h</li>
+				 	</ul>
+			</div>
+			<div id="content"> <ul>
+					   <li>Text 1</li>
+					   <li>Text 2</li>
+					   <li>Text 3</li>
+					   <li>Text 4</li>
+					   <li><a href="5Hilfen.html">Hilfen</a></li>
+				           </ul>
+			</div>
+			
+			<div id="navi"> 	<ul><li id="trick">Übung 1</li> 
+						    <li id="trick">Übung 2</li></ul>
+			</div>
+			<div id="content">	<ul><li><a href="1Fakultaet.html">Fakultät, einfach</a></li>
+						    <li><a href="2FakultaetInput.html">Fakultät mit Eingabe</a></li></ul>  
+			</div>
+
+			
+			<div id="navi"> 	<ul><li id="trick">Layout als Tabelle</li></ul>  </div>
+			<div id="content">	<ul><li><a href="4Tabellenlayout.html">Layout als Tabelle</a></li></ul>  </div>
+			
+		</div><!-- End navicontent -->
+		Und am Ende der Footer.
+		<div id="footer">Ich bin der Footer ... </div>
+	
+	</div> <!-- End bigframe -->
+	<br>
+	<br>Man sollte jedoch die semantischen Tags header, footer, nav und content aus HMTL5 benutzen. 
+	<br>Auch die Farbgebung ist total nutzerunfreundlich.
+	<br>Der CSS-"trick" ist unüblich. Normal nimmt man z.B. DropDown-Menüs mit Verlinkungen für die Navi.
+	<br>Es sollte aber zur Wiederholung so kurz und farblich anschaulich wie möglich sein.
+	<br>Auch findet man die Navigation statt links häufig oben unter oder über dem Header.
+	</body>
+</html>
