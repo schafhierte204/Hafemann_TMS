@@ -31,6 +31,14 @@ nav li {
 	font-family: arial, sans-serif;
 }
 
+table {
+	background-color: greenyellow;
+}
+
+td {
+	background-color: cyan;
+}
+
 
 aside {
 	width: 310px;
@@ -44,7 +52,7 @@ section {
 	width: 650px;
 	height: 550px;
 	float: right;
-	background: green;
+	background: rgb(175, 32, 175);
 }
 
 
