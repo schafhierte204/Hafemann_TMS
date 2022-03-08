@@ -1,0 +1,74 @@
+body {
+    background-color: dimgray;
+}
+
+
+#wrapper {
+    width: 90%;
+    background: grey;
+    border: 3px solid black;
+    border-radius: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+}
+
+header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background: grey;
+}
+
+nav {
+    text-align: center;
+    background: grey;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 30px;
+}
+
+a {
+    color: #777;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+}
+
+table {
+    background-color: greenyellow;
+}
+
+td {
+    background-color: cyan;
+}
+
+
+aside {
+    width: 20%;
+    height: 500px;
+    float: left;
+    background: darkgrey;
+}
+
+
+section {
+    float: right;
+    background: rgb(175, 32, 175);
+    width: 79%;
+    height: 500px;
+}
+
+
+footer {
+    height: 50px;
+    clear: both;
+    text-align: center;
+    padding-top: 10px;
+    background: grey;
+}

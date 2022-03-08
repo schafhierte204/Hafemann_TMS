@@ -1,0 +1,125 @@
+#wrapper {
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 50px;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li { 
+    display: inline;
+    margin-right: 40px;
+}
+
+a { 
+    color: #777;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+}
+
+
+aside {
+    width: 310px;
+    height: 550px;
+    float: left;
+    background: yellow;
+}
+
+
+section {
+    overflow: scroll;
+
+    width: 650px;
+    height: 550px;
+    float: right;
+    background: green;
+}
+
+
+footer {
+    height: 50px;
+    clear: both;
+    background: pink;
+}
+
+
+.button {
+    background-color: #4CAF50; 
+    border: black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+}
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+#red-box {
+    position: absolute;
+
+    background: red;
+    width: 40%;
+    right: 20%;
+    top: 128px;
+    height: 550px;
+}
+
+#green-box {
+    position: absolute;
+
+    background: lightgreen;
+    width: 40%;
+    right: 20%;
+    top: 138px;
+    height: 550px;
+}		
+
+#blue-box {
+    position: absolute;
+
+    background: lightblue;
+    width: 40%;
+    right: 20%;
+    top: 148px;
+    height: 550px;
+}		
+

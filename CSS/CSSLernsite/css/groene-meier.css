@@ -1,0 +1,70 @@
+body {
+    background-color: dimgray;
+}
+
+
+#wrapper {
+    width: 90%;
+    background: grey;
+    border: 3px solid black;
+    border-radius: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+}
+
+
+header {
+    padding-top: 10x;
+    padding-bottom: 10px;
+    text-align: center;
+    background: grey;
+    font-family: "Lucida Console";
+}
+
+nav {
+    text-align: center;
+    background-image: linear-gradient(to right, purple,violet);
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li { 
+    display: inline;
+    margin-right: 30px;
+}
+
+a { 
+    color: black;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+}
+
+
+aside {
+    width: 20%;
+    height: 500px;
+    float: left;
+    background-image: repeating-linear-gradient(purple 10%, purple 10%, rgb(176, 131, 235),pink 20%);
+}
+
+
+section {
+    overflow: scroll;
+
+    width: 79%;
+    height: 500px;
+    float: right;
+    background-image: linear-gradient(purple,pink);
+}
+
+
+footer {
+    height: 50px;
+    clear: both;
+    text-align: center;
+    padding-top: 10px;
+    background: grey;
+}

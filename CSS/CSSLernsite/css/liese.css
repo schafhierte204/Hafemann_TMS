@@ -1,0 +1,73 @@
+
+.bg{
+    background: url("../../../../Working%20files/lieseel/CSS%20Lernprogramm%20Abgaben%20Do.%2017.2.22%20bis%20Mitt/berg.jpg");
+    background-color: dimgray;
+}
+
+.transparent{
+    opacity 0.5;
+}
+body{
+    background-color: dimgray;
+    background: url("../../../../Working%20files/lieseel/CSS%20Lernprogramm%20Abgaben%20Do.%2017.2.22%20bis%20Mitt/berg.jpg")
+}
+#wrapper {
+    width: 90%;
+    border: 3px solid black;
+    border-radius: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+}
+
+
+header {
+    border: 3px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+nav {
+    border: 3px solid black;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li { 
+    display: inline;
+    margin-right: 30px;
+}
+
+a { 
+    color: black;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+}
+
+
+aside {
+    border: 3px solid black;
+    width: 20%;
+    height: 500px;
+    float: left;
+}
+
+
+section {
+    border: 3px solid black;
+    width: 79%;
+    height: 500px;
+    float: right;
+}
+
+
+footer {
+    height: 50px;
+    clear: both;
+    text-align: center;
+    padding-top: 10px;
+}

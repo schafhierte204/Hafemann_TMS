@@ -1,0 +1,264 @@
+
+
+#wrapper {
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+header {
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 50px;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li { 
+    display: inline;
+    margin-right: 40px;
+}
+
+a {
+    color: #777;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+}
+
+
+aside {
+    font: italic bold 12px/30px Georgia, serif;
+    color:white;
+    width: 310px;
+    height: 550px;
+    float: left;
+    background: #36648b
+}
+
+
+section {
+    font: italic bold 12px/30px Georgia, serif;
+    color: white;
+    width: 650px;
+    height: 550px;
+    float: right;
+    background: #00688b
+}
+
+
+footer {text-align: center;
+
+    font: italic bold 15px/40px Georgia, serif;
+    color: white;
+    height: 90px;
+    clear: both;
+    background: #4a708b
+}
+
+.selektor1{
+    font-family: serif;
+    text-align: left;
+}
+
+.selektor1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+.selektor2{
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-align: left;
+}
+
+.selektor3{
+    font-family: "Lucida Console", "Lucida Handwriting", cursive;
+    text-align: left;
+}
+.selektor4{
+    font-family: "Lucida Console", "Papyrus", fantasy;
+    text-align: left;
+}
+
+.selektor5{
+    font-family: "Lucida Console", "Papyrus", fantasy;
+    text-align: left;
+}
+
+.selektor6{
+    font: italic bold 15px/30px Georgia, serif;
+    text-align: left;
+
+}
+
+.selektor7{
+    font: italic bold 15px/30px Georgia, serif;
+    text-align: left;
+}
+
+.selektor8{
+    font: italic bold 15px/30px Georgia, serif;
+    text-align: left;
+}
+
+.selektor9{
+    font: italic bold 15px/30px Georgia, serif;
+    text-align: left;
+}
+
+.selektor10{
+    font: italic bold 15px/30px Georgia, serif;
+    text-align: left;
+}
+
+.sel1{
+    font: italic bold 12px/30px Georgia, serif;
+    text-align: left;
+}
+
+
+
+.styled{
+    padding: 1em;
+    border: 1px solid#96cdcd;
+    border-radius: 4px;
+    margin-bottom: 1em;
+    transition: all 0.4s ease-in-out;
+
+
+}
+
+.styled summary{
+    outline: none;
+    cursor: pointer;
+}
+
+[open].styled{
+    background-color: rgba(0,0,0,0.3)
+
+}
+
+.styled1{
+    padding: 1em;
+    border: 1px solid#96cdcd;
+    border-radius: 4px;
+    margin-bottom: 1em;
+    transition: all 0.4s ease-in-out;
+    text-align: left;
+
+
+}
+
+.styled1 summary{
+    outline: none;
+    cursor: pointer;
+}
+
+[open].styled1{
+    background-color: rgba(0,0,0,0.3)
+
+}
+
+.styled2{
+    padding: 1em;
+    border: 1px solid#96cdcd;
+    border-radius: 4px;
+    margin-bottom: 1em;
+    transition: all 0.4s ease-in-out;
+    text-align: left;
+
+
+}
+
+.styled2 summary{
+    outline: none;
+    cursor: pointer;
+}
+
+[open].styled2{
+    background-color: rgba(0,0,0,0.3)
+
+}
+
+.styled3{
+    padding: 1em;
+    border: 1px solid#96cdcd;
+    border-radius: 4px;
+    margin-bottom: 1em;
+    transition: all 0.4s ease-in-out;
+    text-align: left;
+
+
+}
+
+.styled3 summary{
+    outline: none;
+    cursor: pointer;
+}
+
+[open].styled3{
+    background-color: rgba(0,0,0,0.3)
+
+}
+
+.fo{
+    text-align: right;
+
+}
+
+.text1{
+    font-family:fantasy;
+    font-size: 50px;
+    font-weight:400;
+    letter-spacing:10px;
+    margin-bottom: -40px;
+    position relative;
+    animation: text 4s 1;
+} 
+
+@keyframes text{
+    0%{
+        color: #4f94cd;
+        margin-bottom: -40px;
+    }
+    85%{
+        letter-spacing: 8px:
+        margin-bottom:-40px;
+    }
+}
+
+.text2{
+    font-family:"Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    font-size: 50px;
+    font-weight:500;
+    letter-spacing:10px;
+    position relative;
+    animation: text 4s 1;
+    line-height: 0.5;
+
+} 	
+
+.br{
+    display:block;
+    margin:0 0 1.8em;
+}
+
+.br2{
+    display:block;
+    margin:0 0 2.05em;
+}
+
+.selector22{
+    text-align: left;
+}
+
+
+
