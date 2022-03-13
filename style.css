@@ -15,7 +15,7 @@ th {
 }
 
 a:link {
-    color: rgb(255, 153, 0);
+    color: rgb(124, 79, 11);
 }
 
 a:visited {
@@ -23,5 +23,5 @@ a:visited {
 }
 
 a:active {
-    color: rgb(224, 160, 63);
+    color: rgb(124, 79, 11);
 }

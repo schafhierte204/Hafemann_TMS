@@ -5,11 +5,11 @@
 }
 
 .transparent{
-    opacity 0.5;
+    opacity :50%;
 }
 body{
     background-color: dimgray;
-    background: url("../../../../Working%20files/lieseel/CSS%20Lernprogramm%20Abgaben%20Do.%2017.2.22%20bis%20Mitt/berg.jpg")
+    background: url("../bilder/")
 }
 #wrapper {
     width: 90%;
@@ -18,6 +18,10 @@ body{
     margin-right: auto;
     margin-left: auto;
     margin-top: 10px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
 }
 
 

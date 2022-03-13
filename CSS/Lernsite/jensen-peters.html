@@ -2,61 +2,62 @@
 
 <html>
 
-    <head>
-        <link rel="stylesheet" href="jensen-peters.css" type="text/css">
-        <title> HTML | Home </title>
-    </head>
+<head>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" href="./css/jensen-peters.css" type="text/css">
+    <title> HTML | Home </title>
+</head>
 
-    <body>
+<body>
 
-        <div id ="wrapper">
+    <div id="wrapper">
 
-            <header> <img src="/bilder/Test.png" alt="Logo"> </header>
+        <header> <img src="/bilder/Test.png" alt="Logo"> </header>
 
-            <nav>
-                <ul>
-                    <li> ... </li>
-                    <li> <a href="https://krunker.io/"> Easter Egg :) </a> </li>
-                </ul>
-            </nav>
+        <nav>
+            <ul>
+                <li> ... </li>
+                <li> <a href="https://krunker.io/"> Easter Egg :) </a> </li>
+            </ul>
+        </nav>
 
-            <aside> <button onclick="Functionx()" class="button" style="vertical-align:middle"  ><span>Le Button La Layer 1 </span></button> 
+        <aside> <button onclick="Functionx()" class="button" style="vertical-align:middle"><span>Le Button La Layer 1
+                </span></button>
 
-                <button onclick="Functionxy()" class="button" style="vertical-align:middle"  ><span>Le Button La Layer 2 </span></button> 
+            <button onclick="Functionxy()" class="button" style="vertical-align:middle"><span>Le Button La Layer 2
+                </span></button>
 
-                <button onclick="Functionxyz()" class="button" style="vertical-align:middle"  ><span>Le Button La Layer 3</span></button> 
+            <button onclick="Functionxyz()" class="button" style="vertical-align:middle"><span>Le Button La Layer
+                    3</span></button>
 
-                <details>
-                    <summary>Z-Index</summary>
-                    <p> Der Z-Index verändert die im Vordergrund angezeigten Inhalte.</p>
-                </details> 
+            <details>
+                <summary>Z-Index</summary>
+                <p> Der Z-Index verändert die im Vordergrund angezeigten Inhalte.</p>
+            </details>
 
-            </aside>
+        </aside>
 
-
-            <style>	</style>	
-
-            <div class="green-box"</div>
+        <div class="green-box" </div>
             <div class="blue-box"></div>
             <div class="red-box"></div>
 
             <script>
                 function Functionx() {
-                                    document.getElementById("red-box").style.zIndex = "1";
-                                    document.getElementById("green-box").style.zIndex = "-1";
-                                    document.getElementById("blue-box").style.zIndex = "-1";
-                                }
+                    document.getElementById("red-box").style.zIndex = "1";
+                    document.getElementById("green-box").style.zIndex = "-1";
+                    document.getElementById("blue-box").style.zIndex = "-1";
+                }
                 function Functionxy() {
-                                    document.getElementById("green-box").style.zIndex = "1";
-                                    document.getElementById("blue-box").style.zIndex = "-1";
-                                    document.getElementById("red-box").style.zIndex = "-1";
-                                }
+                    document.getElementById("green-box").style.zIndex = "1";
+                    document.getElementById("blue-box").style.zIndex = "-1";
+                    document.getElementById("red-box").style.zIndex = "-1";
+                }
                 function Functionxyz() {
-                                    document.getElementById("blue-box").style.zIndex = "1";
-                                    document.getElementById("green-box").style.zIndex = "-1";
-                                    document.getElementById("red-box").style.zIndex = "-1";
-                                }
-            </script>	
+                    document.getElementById("blue-box").style.zIndex = "1";
+                    document.getElementById("green-box").style.zIndex = "-1";
+                    document.getElementById("red-box").style.zIndex = "-1";
+                }
+            </script>
 
             <div id="red-box">
                 <h1>1 Layer</h1>
@@ -68,17 +69,16 @@
                 <h1>3 Layer</h1>
             </div>
 
-            <footer> 
+            <footer>
                 <details>
                     <summary>Credits</summary>
                     <p> Made by Gamuil and Gabi</p>
-                </details> 
+                </details>
             </footer>
 
 
         </div>
 
-    </body>
+</body>
 
 </html>
-

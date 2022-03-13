@@ -2,47 +2,48 @@
 
 <html>
 
-    <head>
-        <link rel="stylesheet" href="oetting.css" type="text/css">
-        <title> HTML | Home </title>
-    </head>
+<head>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" href="./css/oetting.css" type="text/css">
+    <title> HTML | Home </title>
+</head>
 
-    <body>
+<body>
 
-        <div id ="wrapper">
+    <div id="wrapper">
 
+        <header> <img src="./bilder/kleiner_drache.gif" alt="Logo"> </header>
 
-            <header> <img src="/bilder/kleiner_drache.gif" alt="Logo"> </header>
+        <nav>
+            <ul>
+                <li> ... </li>
+            </ul>
+        </nav>
 
-            <nav>
-                <ul>
-                    <li> ... </li>
-                </ul>
-            </nav>
+        <aside> Das ist die Sidebar. </aside>
 
-            <aside> Das ist die Sidebar. </aside>
+        <section> Bei CSS Grid arbeitet man mit Zeilen und Spalten und erzeugt auf diese Weise ein Raster. Innerhalb des
+            Rasters lassen sich die einzelnen Objekte anordnen. Dieses Grid kann bzw. muss frei gewählt werden: Der
+            Nutzer selbst entscheidet, welchen Umfang die Zeilen und Spalten haben. Das folgende Beispiel erzeugt ein
+            CSS Grid mit drei Zeilen und vier Spalten. Die erste Zeile ist 200 Pixel hoch, die letzte 100 Pixel. Die
+            mittlere Zeile hat die Angabe 1fr (1 Fraction) erhalten. Damit erstreckt Sie sich über den noch freien
+            Platz. Wie viel Platz zur Verfügung steht wird durch die Gesamthöhe des .container bestimmt. Beachtet, dass
+            die Angabe 1fr auch 0 Pixel bedeuten kann, wenn der Container eine zu niedrige bzw. keine Höhe erhalten hat.
+            <br>
+            Hier das Beispiel:
+            .container{ <br>
+            display: grid; <br>
+            grid-template-rows:200px 1fr 100px; <br>
+            grid-template-columns:25% 25% 25% 25%; <br>
+            <img src="./bilder/GridLayout.png" width="650" height="300">
 
-            <section> Bei CSS Grid arbeitet man mit Zeilen und Spalten und erzeugt auf diese Weise ein Raster. Innerhalb des Rasters lassen sich die einzelnen Objekte anordnen. Dieses Grid kann bzw. muss frei gewählt werden: Der Nutzer selbst entscheidet, welchen Umfang die Zeilen und Spalten haben. Das folgende Beispiel erzeugt ein CSS Grid mit drei Zeilen und vier Spalten. Die erste Zeile ist 200 Pixel hoch, die letzte 100 Pixel. Die mittlere Zeile hat die Angabe 1fr (1 Fraction) erhalten. Damit erstreckt Sie sich über den noch freien Platz. Wie viel Platz zur Verfügung steht wird durch die Gesamthöhe des .container bestimmt. Beachtet, dass die Angabe 1fr auch 0 Pixel bedeuten kann, wenn der Container eine zu niedrige bzw. keine Höhe erhalten hat. <br>
-                Hier das Beispiel: 
-                .container{ <br>
-                display: grid; <br>
-                grid-template-rows:200px 1fr 100px; <br> 
-                grid-template-columns:25% 25% 25% 25%; <br>
-                <img src="GridLayout.png" width="650" height="300">
+            Mit welcher Angabe kann man den Zeilen und Spalten den restmöglichen Platz einfach zuweisen?
+        </section>
 
-                Mit welcher Angabe kann man den Zeilen und Spalten den restmöglichen Platz einfach zuweisen?
+        <footer> Das ist die Fusszeile. </footer>
 
+    </div>
 
-            </section>
-
-            <footer> Das ist die Fusszeile. </footer>
-
-
-
-        </div>
-
-
-    </body>
+</body>
 
 </html>
-

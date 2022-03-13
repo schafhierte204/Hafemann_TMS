@@ -2,7 +2,6 @@ body {
     background-color: dimgray;
 }
 
-
 #wrapper {
     width: 90%;
     background: grey;
@@ -12,7 +11,6 @@ body {
     margin-left: auto;
     margin-top: 10px;
 }
-
 
 header {
     padding-top: 10px;
@@ -35,12 +33,11 @@ nav li {
     margin-right: 30px;
 }
 
-a { 
+a {
     color: black;
     text-decoration: none;
     font-family: arial, sans-serif;
 }
-
 
 aside {
     width: 20%;
@@ -49,14 +46,12 @@ aside {
     background: darkgrey;
 }
 
-
 section {
     width: 79%;
     height: 500px;
     float: right;
     background: darkgrey;
 }
-
 
 footer {
     height: 50px;
@@ -65,4 +60,3 @@ footer {
     padding-top: 10px;
     background: grey;
 }
-
